@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/tangtianshu/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["codicons.nvim"] = {
+    loaded = true,
+    path = "/Users/tangtianshu/.local/share/nvim/site/pack/packer/start/codicons.nvim",
+    url = "https://github.com/mortepau/codicons.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/tangtianshu/.local/share/nvim/site/pack/packer/start/friendly-snippets",

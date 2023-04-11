@@ -59,4 +59,6 @@ return require('packer').startup(function(use)
     use 'tpope/vim-fugitive'
     -- comment
     use 'scrooloose/nerdcommenter'
+    -- ai
+    use 'github/copilot.vim'
 end)

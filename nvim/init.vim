@@ -85,6 +85,10 @@ call g:quickmenu#append('Diff', ':Gdiffsplit')
 call g:quickmenu#append('Log', 'Gclog')
 call g:quickmenu#append('Current File History', ':0Gclog')
 
+" section 3, Copilot
+call g:quickmenu#append('# Copilot', '')
+call g:quickmenu#append('Status', ':Copilot status')
+
 "------------------------------#options------------------------------
 set nocompatible                       "去掉vi的一致性
 syntax on                              "开启语法高亮
